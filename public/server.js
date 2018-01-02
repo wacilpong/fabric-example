@@ -5,7 +5,7 @@ let fs = require('fs');
 app.use('/public', express.static(__dirname));
 
 app.get('/', function(req, res) {
-	fs.readFile('../fabricTest.html', function(err, data) {
+	fs.readFile('./fabricTest.html', function(err, data) {
 		if(err) {
 			console.log(err);
 		} else {
