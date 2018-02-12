@@ -6,6 +6,7 @@ Please test this project or whatever fabric example on your local server.<br>
 'toDataURL()' method is used a lot in fabricJs and it needs HTTP communication.<br>
 Plus, I set up nodeJs. Good Luck.
 
-## Start
-`$ node server`<br>
+## Usage
+`$ npm install`<br>
+`$ npm start`<br>
 `go to http://localhost:55555`
