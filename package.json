@@ -1,0 +1,23 @@
+{
+  "name": "fabric-example",
+  "version": "1.0.0",
+  "description": "The simple example of image edit tool with fabricJs library.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wacilpong/fabric-example.git"
+  },
+  "author": "Roomy han",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wacilpong/fabric-example/issues"
+  },
+  "homepage": "https://github.com/wacilpong/fabric-example#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

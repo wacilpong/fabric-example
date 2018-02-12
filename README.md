@@ -1,5 +1,5 @@
 # fabric-example
-The simple html5 canvas based 'Image Edit Tool' with fabricJs 1.7.17
+The simple html5 canvas based image edit tool with fabricJs 1.7.17
 
 ## server
 Please test this project or whatever fabric example on your local server.<br>
@@ -7,5 +7,5 @@ Please test this project or whatever fabric example on your local server.<br>
 Plus, I set up nodeJs. Good Luck.
 
 ## Start
-`$ node public/server`<br>
+`$ node server`<br>
 `go to http://localhost:55555`

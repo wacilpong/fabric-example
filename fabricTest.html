@@ -9,10 +9,9 @@
 		* {
 			margin: 0;
 			padding: 0;
-			line-height: 1.1;
 		}
 		body {
-			overflow:hidden;
+			overflow: scroll;
 			background-color: #F0F0F0;
 			font-size: 13px;
 			letter-spacing: -0.05em;
@@ -25,7 +24,7 @@
 		li{list-style: none;}
 		input[type="text"]{vertical-align: middle;}
 		input[type="checkbox"]{vertical-align: middle;}
-		.controls { display: inline-block; background: #fafafa; margin-left: 10px; padding: 15px; border-left: 1px dotted #aaa; }
+		.controls { position: absolute; display: inline-block; background: #fafafa; margin-left: 10px; padding: 15px; border-left: 1px dotted #aaa; }
 		.canvas-container { display: inline-block; vertical-align: top; }
 	</style>
 </head>
@@ -33,7 +32,7 @@
 	<input type="hidden" id="widthVal"/>
 	<input type="hidden" id="heightVal"/>
 	<div class="prev_totalBox">
-		<canvas class="preview_box" id="c" width="1400" height="850" style="border:1px solid #aaa"></canvas>
+		<canvas class="preview_box" id="c" width="1200" height="750" style="border:1px solid #aaa"></canvas>
 
 		<div class="controls">
 			<strong>이미지 합성(워터마크)</strong>
@@ -180,8 +179,8 @@
 		</div>
 	</div>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="/public/fabric.js"></script>
-	<script type="text/javascript" src="/public/fabric.extends.js "></script>
-	<script type="text/javascript" src="/public/fabricTest.js"></script>
+	<script type="text/javascript" src="/r/public/lib/fabric.js"></script>
+	<script type="text/javascript" src="/r/public/lib/fabric.extends.js "></script>
+	<script type="text/javascript" src="/r/fabricTest.js"></script>
 </body>
 </html>
